@@ -7,7 +7,7 @@ ENV MONGODB_CONNECTION=mongodb://mongo:27017/contentdb
 FROM node:argon AS build
 WORKDIR /usr/src/app
 
-# Install app dependencies
+# Install app dependenciessss
 COPY package.json /usr/src/app/
 RUN npm install
 
